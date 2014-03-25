@@ -1,5 +1,4 @@
-var expect = require('chai').expect
-	, greet  = require('../index');
+var greet  = require('../index.js');
 describe('greet', function(){
   it('should greet a person by name', function(){
     expect(greet('yi')).to.eql('hello, yi');
