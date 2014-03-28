@@ -6,5 +6,5 @@ test: compile
 
 compile:
 	coffee --compile --output lib src
-	
+
 .PHONY: compile test package

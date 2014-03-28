@@ -1,6 +1,5 @@
-module.exports = (name, drunk) -> 
-	if drunk   
-		"hello #{name}, you look sexy today"
-	else
-		"hello, #{name}"	
-									
+module.exports = (name, drunk) ->
+  if drunk
+    "hello #{name}, you look sexy today"
+  else
+    "hello, #{name}"
